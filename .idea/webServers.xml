@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="059cfa5c-fe35-40f1-9b1c-947fff10147b" name="Home_Server_Local">
+        <fileTransfer rootFolder="/home/sly" accessType="SFTP" host="192.168.0.15" port="22" sshConfigId="dc0b435d-8d5b-448e-9d31-f0c91d3e7f28" sshConfig="sly@192.168.0.15:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

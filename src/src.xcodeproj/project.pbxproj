@@ -1,0 +1,253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		13A0145424A3D16A00B60208 /* network.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = network.cpp; sourceTree = "<group>"; };
+		13A0145524A3D16A00B60208 /* pomcp-pocman.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "pomcp-pocman.o"; sourceTree = "<group>"; };
+		13A0145624A3D16A00B60208 /* pomcp-utils.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "pomcp-utils.o"; sourceTree = "<group>"; };
+		13A0145724A3D16A00B60208 /* pomcp-battleship.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "pomcp-battleship.o"; sourceTree = "<group>"; };
+		13A0145824A3D16A00B60208 /* utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		13A0145924A3D16A00B60208 /* experiment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = experiment.h; sourceTree = "<group>"; };
+		13A0145A24A3D16A00B60208 /* experiment.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = experiment.cpp; sourceTree = "<group>"; };
+		13A0145B24A3D16A00B60208 /* battleship.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = battleship.cpp; sourceTree = "<group>"; };
+		13A0145C24A3D16A00B60208 /* beliefstate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = beliefstate.cpp; sourceTree = "<group>"; };
+		13A0145D24A3D16A00B60208 /* utils.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = utils.cpp; sourceTree = "<group>"; };
+		13A0145E24A3D16A00B60208 /* GameFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GameFiles; sourceTree = "<group>"; };
+		13A0145F24A3D16A00B60208 /* GameOutput */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GameOutput; sourceTree = "<group>"; };
+		13A0146024A3D16A00B60208 /* social.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = social.cpp; sourceTree = "<group>"; };
+		13A0146124A3D16A00B60208 /* simulator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = simulator.cpp; sourceTree = "<group>"; };
+		13A0146224A3D16A00B60208 /* pomcp-main.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "pomcp-main.o"; sourceTree = "<group>"; };
+		13A0146324A3D16A00B60208 /* tag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tag.h; sourceTree = "<group>"; };
+		13A0146424A3D16A00B60208 /* rocksample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rocksample.h; sourceTree = "<group>"; };
+		13A0146524A3D16A00B60208 /* pomcp-node.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "pomcp-node.o"; sourceTree = "<group>"; };
+		13A0146624A3D16A00B60208 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		13A0146724A3D16A00B60208 /* Graph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Graph.cpp; sourceTree = "<group>"; };
+		13A0146824A3D16A00B60208 /* node.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = node.cpp; sourceTree = "<group>"; };
+		13A0146924A3D16A00B60208 /* pomcp-network.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "pomcp-network.o"; sourceTree = "<group>"; };
+		13A0146A24A3D16A00B60208 /* node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = node.h; sourceTree = "<group>"; };
+		13A0146B24A3D16A00B60208 /* coord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = coord.h; sourceTree = "<group>"; };
+		13A0146C24A3D16A00B60208 /* pomcp-coord.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "pomcp-coord.o"; sourceTree = "<group>"; };
+		13A0146D24A3D16A00B60208 /* grid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = grid.h; sourceTree = "<group>"; };
+		13A0146E24A3D16A00B60208 /* Graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
+		13A0146F24A3D16A00B60208 /* Makefile.am */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.am; sourceTree = "<group>"; };
+		13A0147024A3D16A00B60208 /* tag.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tag.cpp; sourceTree = "<group>"; };
+		13A0147124A3D16A00B60208 /* game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = game.h; sourceTree = "<group>"; };
+		13A0147224A3D16A00B60208 /* simulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = simulator.h; sourceTree = "<group>"; };
+		13A0147324A3D16A00B60208 /* history.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = history.h; sourceTree = "<group>"; };
+		13A0147424A3D16A00B60208 /* network.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = network.h; sourceTree = "<group>"; };
+		13A0147524A3D16A00B60208 /* pomcp-testsimulator.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "pomcp-testsimulator.o"; sourceTree = "<group>"; };
+		13A0147624A3D16A00B60208 /* pomcp-tag.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "pomcp-tag.o"; sourceTree = "<group>"; };
+		13A0147724A3D16A00B60208 /* testsimulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testsimulator.h; sourceTree = "<group>"; };
+		13A0147824A3D16A00B60208 /* mcts.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mcts.cpp; sourceTree = "<group>"; };
+		13A0147924A3D16A00B60208 /* pomcp */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = pomcp; sourceTree = "<group>"; };
+		13A0147A24A3D16A00B60208 /* pocman.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pocman.cpp; sourceTree = "<group>"; };
+		13A0147B24A3D16A00B60208 /* pomcp-game.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "pomcp-game.o"; sourceTree = "<group>"; };
+		13A0147C24A3D16A00B60208 /* coord.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = coord.cpp; sourceTree = "<group>"; };
+		13A0147D24A3D16A00B60208 /* mcts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mcts.h; sourceTree = "<group>"; };
+		13A0147E24A3D16A00B60208 /* memorypool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = memorypool.h; sourceTree = "<group>"; };
+		13A0147F24A3D16A00B60208 /* pomcp-rocksample.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "pomcp-rocksample.o"; sourceTree = "<group>"; };
+		13A0148024A3D16A00B60208 /* statistic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = statistic.h; sourceTree = "<group>"; };
+		13A0148124A3D16A00B60208 /* social.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = social.h; sourceTree = "<group>"; };
+		13A0148224A3D16A00B60208 /* testsimulator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = testsimulator.cpp; sourceTree = "<group>"; };
+		13A0148324A3D16A00B60208 /* rocksample.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = rocksample.cpp; sourceTree = "<group>"; };
+		13A0148424A3D16A00B60208 /* pocman.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pocman.h; sourceTree = "<group>"; };
+		13A0148524A3D16A00B60208 /* pomcp-beliefstate.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "pomcp-beliefstate.o"; sourceTree = "<group>"; };
+		13A0148624A3D16A00B60208 /* .deps */ = {isa = PBXFileReference; lastKnownFileType = folder; path = .deps; sourceTree = "<group>"; };
+		13A0148724A3D16A00B60208 /* pomcp-simulator.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "pomcp-simulator.o"; sourceTree = "<group>"; };
+		13A0148824A3D16A00B60208 /* Makefile.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = Makefile.in; sourceTree = "<group>"; };
+		13A0148924A3D16A00B60208 /* battleship.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = battleship.h; sourceTree = "<group>"; };
+		13A0148A24A3D16A00B60208 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		13A0148B24A3D16A00B60208 /* pomcp-mcts.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "pomcp-mcts.o"; sourceTree = "<group>"; };
+		13A0148C24A3D16A00B60208 /* game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = game.cpp; sourceTree = "<group>"; };
+		13A0148D24A3D16A00B60208 /* pomcp-experiment.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = "pomcp-experiment.o"; sourceTree = "<group>"; };
+		13A0148E24A3D16A00B60208 /* beliefstate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = beliefstate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		13A0144E24A3D16A00B60208 = {
+			isa = PBXGroup;
+			children = (
+				13A0145424A3D16A00B60208 /* network.cpp */,
+				13A0145524A3D16A00B60208 /* pomcp-pocman.o */,
+				13A0145624A3D16A00B60208 /* pomcp-utils.o */,
+				13A0145724A3D16A00B60208 /* pomcp-battleship.o */,
+				13A0145824A3D16A00B60208 /* utils.h */,
+				13A0145924A3D16A00B60208 /* experiment.h */,
+				13A0145A24A3D16A00B60208 /* experiment.cpp */,
+				13A0145B24A3D16A00B60208 /* battleship.cpp */,
+				13A0145C24A3D16A00B60208 /* beliefstate.cpp */,
+				13A0145D24A3D16A00B60208 /* utils.cpp */,
+				13A0145E24A3D16A00B60208 /* GameFiles */,
+				13A0145F24A3D16A00B60208 /* GameOutput */,
+				13A0146024A3D16A00B60208 /* social.cpp */,
+				13A0146124A3D16A00B60208 /* simulator.cpp */,
+				13A0146224A3D16A00B60208 /* pomcp-main.o */,
+				13A0146324A3D16A00B60208 /* tag.h */,
+				13A0146424A3D16A00B60208 /* rocksample.h */,
+				13A0146524A3D16A00B60208 /* pomcp-node.o */,
+				13A0146624A3D16A00B60208 /* Makefile */,
+				13A0146724A3D16A00B60208 /* Graph.cpp */,
+				13A0146824A3D16A00B60208 /* node.cpp */,
+				13A0146924A3D16A00B60208 /* pomcp-network.o */,
+				13A0146A24A3D16A00B60208 /* node.h */,
+				13A0146B24A3D16A00B60208 /* coord.h */,
+				13A0146C24A3D16A00B60208 /* pomcp-coord.o */,
+				13A0146D24A3D16A00B60208 /* grid.h */,
+				13A0146E24A3D16A00B60208 /* Graph.h */,
+				13A0146F24A3D16A00B60208 /* Makefile.am */,
+				13A0147024A3D16A00B60208 /* tag.cpp */,
+				13A0147124A3D16A00B60208 /* game.h */,
+				13A0147224A3D16A00B60208 /* simulator.h */,
+				13A0147324A3D16A00B60208 /* history.h */,
+				13A0147424A3D16A00B60208 /* network.h */,
+				13A0147524A3D16A00B60208 /* pomcp-testsimulator.o */,
+				13A0147624A3D16A00B60208 /* pomcp-tag.o */,
+				13A0147724A3D16A00B60208 /* testsimulator.h */,
+				13A0147824A3D16A00B60208 /* mcts.cpp */,
+				13A0147924A3D16A00B60208 /* pomcp */,
+				13A0147A24A3D16A00B60208 /* pocman.cpp */,
+				13A0147B24A3D16A00B60208 /* pomcp-game.o */,
+				13A0147C24A3D16A00B60208 /* coord.cpp */,
+				13A0147D24A3D16A00B60208 /* mcts.h */,
+				13A0147E24A3D16A00B60208 /* memorypool.h */,
+				13A0147F24A3D16A00B60208 /* pomcp-rocksample.o */,
+				13A0148024A3D16A00B60208 /* statistic.h */,
+				13A0148124A3D16A00B60208 /* social.h */,
+				13A0148224A3D16A00B60208 /* testsimulator.cpp */,
+				13A0148324A3D16A00B60208 /* rocksample.cpp */,
+				13A0148424A3D16A00B60208 /* pocman.h */,
+				13A0148524A3D16A00B60208 /* pomcp-beliefstate.o */,
+				13A0148624A3D16A00B60208 /* .deps */,
+				13A0148724A3D16A00B60208 /* pomcp-simulator.o */,
+				13A0148824A3D16A00B60208 /* Makefile.in */,
+				13A0148924A3D16A00B60208 /* battleship.h */,
+				13A0148A24A3D16A00B60208 /* main.cpp */,
+				13A0148B24A3D16A00B60208 /* pomcp-mcts.o */,
+				13A0148C24A3D16A00B60208 /* game.cpp */,
+				13A0148D24A3D16A00B60208 /* pomcp-experiment.o */,
+				13A0148E24A3D16A00B60208 /* beliefstate.h */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		13A0145324A3D16A00B60208 /* src */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 13A0148F24A3D16A00B60208 /* Build configuration list for PBXLegacyTarget "src" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "/Users/sly/Downloads/GamePOMDP/pomcp-1.0/src";
+			dependencies = (
+			);
+			name = src;
+			passBuildSettingsInEnvironment = 1;
+			productName = src;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		13A0144F24A3D16A00B60208 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 13A0145224A3D16A00B60208 /* Build configuration list for PBXProject "src" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13A0144E24A3D16A00B60208;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13A0145324A3D16A00B60208 /* src */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		13A0145024A3D16A00B60208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		13A0145124A3D16A00B60208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		13A0149024A3D16A00B60208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = src;
+			};
+			name = Debug;
+		};
+		13A0149124A3D16A00B60208 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = src;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13A0145224A3D16A00B60208 /* Build configuration list for PBXProject "src" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A0145024A3D16A00B60208 /* Debug */,
+				13A0145124A3D16A00B60208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13A0148F24A3D16A00B60208 /* Build configuration list for PBXLegacyTarget "src" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A0149024A3D16A00B60208 /* Debug */,
+				13A0149124A3D16A00B60208 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13A0144F24A3D16A00B60208 /* Project object */;
+}
